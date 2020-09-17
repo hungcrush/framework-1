@@ -6,46 +6,12 @@
 
 ## Introduction
 
-Shopper is an Admin Management build for Laravel 7.0+ which includes all the necessary for your online market application.
-Web Application is made using Laravel & React and Mobile Apps (Soon) will be done with React Native. Please don't use it in production 🙏🏾 this package is still under active development.
+Shopper v2 is an Admin Management build for Laravel 7.0+ which includes all the necessary for your online market application.
+Web Application is made using Laravel & React and Mobile Apps (Soon) will be done with React Native. Please don't use it in production 🙏🏾 this package is a demo version and still under active development.
 
-## Road Map
+## WIP
 
-Here's a rough roadmap of things to come (not in any specific order):
-
--   [x] Shop Creation
--   [ ] Email Configuration
--   [ ] Performance Improvements
--   [ ] User Impersonate
--   [ ] Laravel Sanctum Authentification API
--   [ ] Android and iOS Mobile Apps
--   [ ] Social Media Post integration (Twitter & Facebook)
-
-## Installation
-
-Firstly, download the Laravel installer using Composer:
-``` bash  
-$ composer require shopper/framework  
-```
-
-Run this command to install Shopper in your project
-```php
-php artisan shopper:install
-```
-
-This command will install shopper, publish config and lang files, run migrations and seeders classes and finally added dashboard prefix url and default shop currency.
-
-Extend your user model using the `Shopper\Framework\Models\User as Authenticatable` alias:
-
-```php
-namespace App;
-
-use Shopper\Framework\Models\User as Authenticatable;  
-  
-class User extends Authenticatable  
-{  
-  
-}
+This is not the official version. It's just a demo version of the next upcoming release (Shopper v2) which is licensed under the [Sponsorware license](https://github.com/sponsorware/docs).
 
 ```
 
@@ -66,7 +32,6 @@ If you discover any security related issues, please email contact@arthurmonney.c
 ## Credits
 
 -   [Arthur Monney][link-author]
--   [All Contributors][link-contributors]
 
 ## License
 
@@ -79,4 +44,3 @@ MIT. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/shopper/framework
 [link-travis]: https://travis-ci.org/shopper/framework
 [link-author]: https://github.com/mckenziearts
-[link-contributors]: ../../contributors
