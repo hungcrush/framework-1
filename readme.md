@@ -1,13 +1,7 @@
-# Framework (WIP)
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-
 ## Introduction
 
 Shopper v2 is an Admin Management build for Laravel 7.0+ which includes all the necessary for your online market application.
-Web Application is made using Laravel & React and Mobile Apps (Soon) will be done with React Native. Please don't use it in production 🙏🏾 this package is a demo version and still under active development.
+Web Application is made using Laravel & React and Mobile Apps (Soon) will be done with React Native. Please don't use it this package is a demo version.
 
 ## WIP
 
