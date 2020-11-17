@@ -1,5 +1,5 @@
 {
-  "name": "shopper/framework",
+  "name": "hungcrush/framework",
   "description": "An eCommerce administration built with Laravel 6 for create online shop.",
   "keywords": [
     "laravel",
@@ -10,15 +10,15 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Arthur Monney",
-      "email": "contact@arthurmonney.me",
-      "homepage": "https://arthurmonney.me"
+      "name": "Harry Tr",
+      "email": "me@tranvinhhung.com",
+      "homepage": "https://tranvinhhung.com"
     }
   ],
   "require": {
     "php": "^7.4",
     "ext-intl": "*",
-    "illuminate/support": "^7.0",
+    "illuminate/support": "^7.0|^8.0",
     "laravel/helpers": "^1.2",
     "laravel/sanctum": "^2.2",
     "laravelcollective/html": "^6.0",
